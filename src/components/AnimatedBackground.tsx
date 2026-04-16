@@ -121,8 +121,8 @@ const AnimatedBackground = () => {
                 scale: [1, 1.1, 1],
               }}
               transition={{
-                rotate: { duration: 20 + i * 5, repeat: Infinity, ease: "linear" },
-                scale: { duration: 4, repeat: Infinity, ease: "easeInOut" },
+                rotate: { duration: 20 + i * 5, repeat: Infinity, ease: "linear" as const },
+                scale: { duration: 4, repeat: Infinity, ease: "easeInOut" as const },
               }}
             />
           </motion.div>
@@ -148,7 +148,7 @@ const AnimatedBackground = () => {
           transition={{
             duration: 2 + Math.random() * 2,
             repeat: Infinity,
-            ease: "easeInOut",
+            ease: "easeInOut" as const,
           }}
         />
       ))}

@@ -233,7 +233,7 @@ export default function CertificationsSection() {
       scale: 1,
       transition: {
         duration: 0.8,
-        ease: [0.25, 0.46, 0.45, 0.94],
+        ease: [0.25, 0.46, 0.45, 0.94] as const,
       },
     },
   };
@@ -245,7 +245,7 @@ export default function CertificationsSection() {
       transition: {
         duration: 8,
         repeat: Infinity,
-        ease: "easeInOut",
+        ease: "easeInOut" as const,
       },
     },
   };
@@ -306,7 +306,7 @@ export default function CertificationsSection() {
                 whileHover={{
                   y: -8,
                   scale: 1.02,
-                  transition: { duration: 0.3, ease: "easeOut" }
+                  transition: { duration: 0.3, ease: "easeOut" as const }
                 }}
                 className="group h-full"
               >

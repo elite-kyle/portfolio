@@ -377,7 +377,7 @@ function TechCard({
       transition={{
         duration: 0.6,
         delay: index * 0.05,
-        type: "spring",
+        type: "spring" as const,
         stiffness: 100
       }}
       viewport={{ once: true }}

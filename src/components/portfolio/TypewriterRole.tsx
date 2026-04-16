@@ -3,17 +3,17 @@
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 
+const roles = [
+  "Full Stack Developer",
+  "Software Engineer",
+  "Systems Designer",
+  "AI Enthusiast"
+];
+
 export default function TypewriterRole() {
   const [currentRoleIndex, setCurrentRoleIndex] = useState(0);
   const [displayText, setDisplayText] = useState("");
   const [isDeleting, setIsDeleting] = useState(false);
-
-  const roles = [
-    "Full Stack Developer",
-    "Software Engineer",
-    "Systems Designer",
-    "AI Enthusiast"
-  ];
 
   // Typewriter effect
   useEffect(() => {
@@ -36,7 +36,7 @@ export default function TypewriterRole() {
     }, isDeleting ? 50 : 120);
 
     return () => clearTimeout(timeout);
-  }, [displayText, isDeleting, currentRoleIndex, roles]);
+  }, [displayText, isDeleting, currentRoleIndex]);
 
   return (
     <motion.div
@@ -53,7 +53,7 @@ export default function TypewriterRole() {
           scale: [1, 1.3, 1],
         }}
         transition={{
-          rotate: { duration: 10, repeat: Infinity, ease: "linear" },
+          rotate: { duration: 10, repeat: Infinity, ease: "linear" as const },
           scale: { duration: 2, repeat: Infinity }
         }}
         style={{
@@ -68,7 +68,7 @@ export default function TypewriterRole() {
           scale: [1, 1.4, 1],
         }}
         transition={{
-          rotate: { duration: 15, repeat: Infinity, ease: "linear" },
+          rotate: { duration: 15, repeat: Infinity, ease: "linear" as const },
           scale: { duration: 3, repeat: Infinity, delay: 1 }
         }}
         style={{
@@ -81,7 +81,7 @@ export default function TypewriterRole() {
         className="relative overflow-hidden rounded-2xl px-6 py-3 min-w-[280px]"
         initial={{ scale: 0.8 }}
         animate={{ scale: 1 }}
-        transition={{ delay: 0.6, type: "spring", stiffness: 200 }}
+        transition={{ delay: 0.6, type: "spring" as const, stiffness: 200 }}
       >
         {/* Animated Background Layers */}
         <motion.div
@@ -106,7 +106,7 @@ export default function TypewriterRole() {
           transition={{
             duration: 3,
             repeat: Infinity,
-            ease: "easeInOut",
+            ease: "easeInOut" as const,
           }}
         />
 
@@ -114,7 +114,7 @@ export default function TypewriterRole() {
         <motion.div
           className="absolute inset-0 opacity-20 rounded-2xl"
           animate={{ rotate: [0, 360] }}
-          transition={{ duration: 25, repeat: Infinity, ease: "linear" }}
+          transition={{ duration: 25, repeat: Infinity, ease: "linear" as const }}
         >
           <div className="absolute top-1 left-2 w-1 h-1 bg-white rounded-full" />
           <div className="absolute top-3 right-3 w-0.5 h-0.5 bg-white rounded-full" />
@@ -154,7 +154,7 @@ export default function TypewriterRole() {
           transition={{
             duration: 3,
             repeat: Infinity,
-            ease: "easeInOut"
+            ease: "easeInOut" as const
           }}
         />
       </motion.div>

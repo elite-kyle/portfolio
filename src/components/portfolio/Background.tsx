@@ -21,8 +21,8 @@ export default function Background() {
 
   // Reduce animation complexity on mobile
   const animationConfig = isMobile
-    ? { duration: 12, ease: "linear" }
-    : { duration: 8, ease: "easeInOut" };
+    ? { duration: 12, ease: "linear" as const }
+    : { duration: 8, ease: "easeInOut" as const };
 
   return (
     <div className="fixed inset-0 -z-10 overflow-hidden">
@@ -104,7 +104,7 @@ export default function Background() {
             duration: Math.random() * 2 + 4,
             repeat: Infinity,
             delay: Math.random() * 3,
-            ease: "linear",
+            ease: "linear" as const,
           }}
         />
       ))}

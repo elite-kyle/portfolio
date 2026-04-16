@@ -28,7 +28,7 @@ export default function SectionHeader({
       scale: 1,
       transition: {
         duration: 0.8,
-        ease: [0.25, 0.46, 0.45, 0.94],
+        ease: [0.25, 0.46, 0.45, 0.94] as const,
       },
     },
   };
@@ -53,7 +53,7 @@ export default function SectionHeader({
       <motion.h2
         className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-3 md:mb-4 lg:mb-6"
         whileHover={{ scale: 1.02 }}
-        transition={{ type: "spring", stiffness: 300 }}
+        transition={{ type: "spring" as const, stiffness: 300 }}
       >
         <span className="bg-gradient-to-l from-indigo-600 via-purple-600 to-violet-600 dark:from-indigo-400 dark:via-purple-400 dark:to-violet-400 bg-clip-text text-transparent">
           {heading}

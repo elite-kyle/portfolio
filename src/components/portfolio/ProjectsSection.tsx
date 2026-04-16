@@ -96,7 +96,7 @@ export default function ProjectsSection() {
       scale: 1,
       transition: {
         duration: 0.8,
-        ease: [0.25, 0.46, 0.45, 0.94],
+        ease: [0.25, 0.46, 0.45, 0.94] as const,
       },
     },
   };
@@ -108,7 +108,7 @@ export default function ProjectsSection() {
       transition: {
         duration: 6,
         repeat: Infinity,
-        ease: "easeInOut",
+        ease: "easeInOut" as const,
       },
     },
   };
@@ -167,7 +167,7 @@ export default function ProjectsSection() {
               key={index}
               variants={itemVariants}
               whileHover={{ y: -2 }}
-              transition={{ type: "spring", stiffness: 300 }}
+              transition={{ type: "spring" as const, stiffness: 300 }}
               className="group"
             >
               <div className="bg-white/80 dark:bg-gray-900/80 backdrop-blur-xl rounded-2xl md:rounded-3xl border border-white/30 dark:border-gray-700/40 hover:border-gray-300 dark:hover:border-gray-600 transition-all duration-500 overflow-hidden shadow-lg md:shadow-xl hover:shadow-xl md:hover:shadow-2xl">
@@ -205,7 +205,7 @@ export default function ProjectsSection() {
                         transition={{
                           duration: 4 + i * 0.5,
                           repeat: Infinity,
-                          ease: "easeInOut",
+                          ease: "easeInOut" as const,
                         }}
                       >
                         <Icon icon={item.icon} width={24} height={24} className="md:w-8 md:h-8" />
