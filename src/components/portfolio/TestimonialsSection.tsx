@@ -29,7 +29,7 @@ interface FeaturedTestimonialProps {
 
 const testimonials = [
   {
-    content: "Ramzan is great! He is very skillful and fast learner, just what you need in a developer.",
+    content: "Larsen is great! He is very skillful and fast learner, just what you need in a developer.",
     author: "Mohammed Swellam",
     role: "CEO",
     company: "Geeky Air",
@@ -39,7 +39,7 @@ const testimonials = [
     featured: true
   },
   {
-    content: "Ramzan produced some really amazing work on the backend. He demonstrated his proficiency and efficiency by using Node.js and Javascript to successfully import a very large dataset into a MySQL database.",
+    content: "Larsen produced some really amazing work on the backend. He demonstrated his proficiency and efficiency by using Node.js and Javascript to successfully import a very large dataset into a MySQL database.",
     author: "Arnel Bisnar",
     role: "Product Manager",
     company: "Solid Lift Parts Inc",
@@ -48,13 +48,13 @@ const testimonials = [
     avatar: "AB"
   },
   {
-    content: "It's been great to work with him! Fast, active and hardworking! Ramzan architected checkersvip.com from ground up with great attention to detail and great design. He is a great team player and a great developer.",
+    content: "It's been great to work with him! Fast, active and hardworking! Larsen architected checkersvip.com from ground up with great attention to detail and great design. He is a great team player and a great developer.",
     author: "Gilberto Cisneros",
     role: "CEO",
     company: "Checkersvip.com",
     rating: 5,
     project: "JavaScript Applications",
-    avatar: "MR"
+    avatar: "KL"
   },
   {
     content: "We had a fantastic experience working with him on a recent project. He consistently delivered high-quality work, showed exceptional attention to detail, and communicated effectively throughout the process.",

@@ -6,36 +6,36 @@ import SectionHeader from "./SectionHeader";
 
 const experience = [
   {
-    role: "Software Developer",
-    company: "Upwork",
-    period: "January 2020 — Present",
-    type: "Freelance",
-    companyIcon: "fa6-brands:square-upwork",
+    role: "Senior Full-stack Engineer",
+    company: "Target Corporation",
+    period: "March 2023 — Present",
+    type: "Full-time",
+    companyIcon: "material-symbols:deployed-code",
     companyColor: "from-green-500 to-green-600",
-    description: "Delivered high-quality projects across diverse domains, including web and mobile applications, API development, and cloud integrations (AWS, GCP).",
+    description: "Led end-to-end development of full-stack features across Target’s digital ecosystem, supporting both e-commerce and in-store experiences.",
     achievements: [
-      "Achieved Top-Rated status with a 91% job success score",
-      "Completed 10+ projects focusing on scalable solutions",
-      "Consistently praised for skillfulness, quick learning, and strong communication",
-      "Earned repeated engagements through reliability and expertise"
+      "Designed and scaled backend services to reliably handle traffic spikes during high-demand events like seasonal sales.",
+      "Improved overall application performance by reducing page load times by 25% through targeted frontend and API optimizations.",
+      "Worked closely with product and design teams to deliver features that directly improved customer journeys.",
+      "Strengthened system reliability by introducing better monitoring, logging, and performance tuning practices."
     ],
-    technologies: ["JavaScript", "Python", "Node.js", "AWS", "GCP", "OpenAI API", "LangChain"]
+    technologies: ["TypeScript", "Java", "Node.js", "Spring Boot", "AWS", "GCP", "LangChain"]
   },
   {
-    role: "HIMS Master Trainer / PACS Specialist",
-    company: "Public Health Organization, Islamabad",
-    period: "July 2019 — Present",
+    role: "Senior AI/ML Full-stack Engineer",
+    company: "Apple Inc.",
+    period: "August 2019 — February 2023",
     type: "Full-time",
     companyColor: "from-blue-500 to-blue-600",
-    companyIcon: "mdi:hospital-building",
-    description: "Spearheaded organizational transformation from paper-based manual systems to completely integrated HIMS and PACS (Picture Archiving and Communication System).",
+    companyIcon: "logos:openai-icon",
+    description: "Built and shipped AI-powered features by integrating machine learning models into customer-facing applications.",
     achievements: [
-      "Led integration of 45+ radiology machines (CT, MRI, X-Ray, Ultrasound)",
-      "Ensured active monitoring for integration issues",
-      "Acted as master trainer and led support team",
-      "Communicated issues and requirements to backend teams"
+      "Owned full-stack delivery, connecting backend ML pipelines with clean, intuitive frontend experiences.",
+      "Improved real-time processing speed by 15% by optimizing model inference and data pipelines.",
+      "Reduced latency across key features, leading to noticeably faster and smoother user interactions.",
+      "Played a key role in scaling systems, contributing to a 20% improvement in platform performance."
     ],
-    technologies: ["HIMS", "PACS", "System Integration", "Healthcare IT", "Training & Support"]
+    technologies: ["Python", "Tensoflow", "OpenAI API", "AWS", "LangChain"]
   }
 ];
 

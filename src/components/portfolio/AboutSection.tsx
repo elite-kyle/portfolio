@@ -15,18 +15,14 @@ export default function AboutSection() {
       <h2 className="text-2xl font-bold mb-6">About</h2>
       <div className="max-w-none">
         <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
-          Hello, World! I am Muhammad Ramazan — a passionate Full Stack Developer & UI/UX enthusiast
+          Hello, World! I am Kyle Larsen — a passionate Full Stack Developer & UI/UX enthusiast
           dedicated to creating high-performance, user-centric software solutions with intuitive and engaging designs.
         </p>
         <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
-          With 5+ years of experience, I specialize in building scalable web and mobile applications using
-          React, Next.js, TypeScript, and modern development technologies. I thrive on turning complex problems
-          into elegant solutions that users love.
+          Senior Full-stack Engineer with 10+ years of experience building and scaling production-grade systems at companies like Target Corporation, Apple Inc., and Walmart Inc., delivering high-impact, customer-facing platforms under heavy traffic.
         </p>
         <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-          Beyond work, I love exploring emerging technologies, contributing to open-source projects, and
-          mentoring aspiring developers. I believe in continuous learning and staying at the forefront of
-          technological innovation.
+          Designs and owns full-stack and AI-powered systems that operate reliably at scale, including real-time applications and data-intensive platforms. Drives measurable impact through performance optimization and system scalability, achieving 25% faster load times, 15% higher user engagement, and significant improvements in responsiveness.
         </p>
       </div>
     </motion.section>

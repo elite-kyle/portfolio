@@ -109,28 +109,23 @@ export default function OverviewSection() {
                   <div>
                     <h3 className="text-xl sm:text-2xl md:text-3xl font-bold mb-3 md:mb-4 text-gray-900 dark:text-white flex items-center gap-2 md:gap-3">
                       <span className="text-2xl sm:text-3xl md:text-4xl">👋</span>
-                      Hello, I&apos;m Muhammad Ramazan
+                      Hello, I&apos;m Kyle Larsen
                     </h3>
                     <p className="text-base md:text-lg lg:text-xl text-gray-600 dark:text-gray-300 leading-relaxed mb-4 md:mb-6">
-                      A passionate <span className="font-bold text-blue-600 dark:text-blue-400">Full Stack Developer</span> and
+                      A passionate <span className="font-bold text-blue-600 dark:text-blue-400">Software Engineer</span> and
                       <span className="font-bold text-purple-600 dark:text-purple-400">
                         &nbsp; AI enthusiast</span> with
-                      <span className="font-bold text-green-600 dark:text-green-400"> 5+ years</span> of experience crafting
-                      digital experiences that users love.
+                      <span className="font-bold text-green-600 dark:text-green-400"> 10+ years</span> of experiences building and scaling production-grade systems, delivering high-impact, customer-facing platforms under traffic.
                     </p>
                   </div>
 
                   {/* Expanded About Content */}
                   <div className="space-y-3 md:space-y-4 border-t border-gray-200/50 dark:border-gray-700/50 pt-4 md:pt-6">
                     <p className="text-sm md:text-base text-gray-700 dark:text-gray-300 leading-relaxed">
-                      I specialize in building scalable web and mobile applications using React, Next.js, TypeScript,
-                      and modern development technologies. I thrive on turning complex problems into elegant solutions
-                      that users love.
+                      Designs and owns full-stack and AI-powered systems that operate reliably at scale, including real-time applications and data-intensive platforms. 
                     </p>
                     <p className="text-sm md:text-base text-gray-700 dark:text-gray-300 leading-relaxed">
-                      Beyond work, I love exploring emerging technologies, contributing to open-source projects, and
-                      mentoring aspiring developers. I believe in continuous learning and staying at the forefront of
-                      technological innovation.
+                      Drives measurable impact through performance optimization and system scalability, achieving 25% faster load times, 15% higher user engagement, and significant improvements in responsiveness.
                     </p>
                   </div>
 
@@ -171,18 +166,17 @@ export default function OverviewSection() {
                       <Icon icon="solar:code-bold" className="text-white w-5 md:w-6 h-5 md:h-6" width={24} height={24} />
                     </div>
                     <div>
-                      <h4 className="font-bold text-gray-900 dark:text-white text-base md:text-lg">Software Developer</h4>
-                      <p className="text-blue-600 dark:text-blue-400 font-medium text-sm md:text-base">Upwork Freelancer</p>
-                      <p className="text-xs md:text-sm text-gray-600 dark:text-gray-400 mt-1">2020 — Present</p>
+                      <h4 className="font-bold text-gray-900 dark:text-white text-base md:text-lg">Senior Full-stack Engineer</h4>
+                      <p className="text-blue-600 dark:text-blue-400 font-medium text-sm md:text-base">Target Corporation</p>
+                      <p className="text-xs md:text-sm text-gray-600 dark:text-gray-400 mt-1">2023 — Present</p>
                     </div>
                   </div>
                   <p className="text-gray-700 dark:text-gray-300 text-xs md:text-sm leading-relaxed mb-2 md:mb-3 flex-1">
-                    Delivering high-quality projects across diverse domains, specializing in web applications,
-                    API development, and cloud integrations.
+                    Led end-to-end development of full-stack features across Target’s digital ecosystem, supporting both e-commerce and in-store experiences.
                   </p>
                   <div className="flex items-center gap-2 text-xs md:text-sm mt-auto">
                     <Icon icon="solar:star-bold" className="text-yellow-500 w-3 md:w-4 h-3 md:h-4" width={16} height={16} />
-                    <span className="font-semibold text-green-600 dark:text-green-400">Top Rated • 91% Success Score</span>
+                    <span className="font-semibold text-green-600 dark:text-green-400">Top Rated • 93% Success Score</span>
                   </div>
                 </motion.div>
 
@@ -193,12 +187,12 @@ export default function OverviewSection() {
                 >
                   <div className="flex items-start gap-3 md:gap-4 mb-3 md:mb-4">
                     <div className="p-2 md:p-3 bg-green-500 rounded-lg md:rounded-xl shadow-lg">
-                      <Icon icon="solar:hospital-bold" className="text-white w-5 md:w-6 h-5 md:h-6" width={24} height={24} />
+                      <Icon icon="logos:openai-icon" className="text-white w-5 md:w-6 h-5 md:h-6" width={24} height={24} />
                     </div>
                     <div>
-                      <h4 className="font-bold text-gray-900 dark:text-white text-base md:text-lg">HIMS Master Trainer</h4>
-                      <p className="text-green-600 dark:text-green-400 font-medium text-sm md:text-base">Public Health Organization</p>
-                      <p className="text-xs md:text-sm text-gray-600 dark:text-gray-400 mt-1">2019 — Present</p>
+                      <h4 className="font-bold text-gray-900 dark:text-white text-base md:text-lg">Senior AI/ML Full-stack Engineer</h4>
+                      <p className="text-green-600 dark:text-green-400 font-medium text-sm md:text-base">Apple Inc.</p>
+                      <p className="text-xs md:text-sm text-gray-600 dark:text-gray-400 mt-1">2019 — 2023</p>
                     </div>
                   </div>
                   <p className="text-gray-700 dark:text-gray-300 text-xs md:text-sm leading-relaxed mb-2 md:mb-3 flex-1">
@@ -207,7 +201,7 @@ export default function OverviewSection() {
                   </p>
                   <div className="flex items-center gap-2 text-xs md:text-sm mt-auto">
                     <Icon icon="solar:shield-check-bold" className="text-blue-500 w-3 md:w-4 h-3 md:h-4" width={16} height={16} />
-                    <span className="font-semibold text-blue-600 dark:text-blue-400">Healthcare IT Specialist</span>
+                    <span className="font-semibold text-blue-600 dark:text-blue-400">Top Rated • 91% Success Score</span>
                   </div>
                 </motion.div>
               </div>
@@ -224,7 +218,7 @@ export default function OverviewSection() {
               </h4>
               <div className="space-y-3">
                 <motion.a
-                  href="mailto:mramazan1@yahoo.com"
+                  href="elite.kyle@outlook.com"
                   whileHover={{ scale: 1.02, x: 4 }}
                   whileTap={{ scale: 0.98 }}
                   className="flex items-center gap-3 p-3 rounded-lg bg-white/70 dark:bg-gray-800/30 hover:bg-white/90 dark:hover:bg-gray-800/50 transition-all duration-300 group border border-white/20 dark:border-gray-700/30"
@@ -233,7 +227,7 @@ export default function OverviewSection() {
                     <Icon icon="solar:letter-bold" className="text-white w-4 h-4" width={16} height={16} />
                   </div>
                   <div>
-                    <div className="text-sm font-bold text-gray-900 dark:text-white break-all">mramazan1@yahoo.com</div>
+                    <div className="text-sm font-bold text-gray-900 dark:text-white break-all">elite.kyle@outlook.com</div>
                   </div>
                 </motion.a>
 
@@ -245,7 +239,7 @@ export default function OverviewSection() {
                     <Icon icon="solar:global-bold" className="text-white w-4 h-4" width={16} height={16} />
                   </div>
                   <div>
-                    <div className="text-sm font-bold text-gray-900 dark:text-white">mramazan.dev</div>
+                    <div className="text-sm font-bold text-gray-900 dark:text-white">kyle.dev</div>
                   </div>
                 </motion.div>
 
@@ -257,7 +251,7 @@ export default function OverviewSection() {
                     <Icon icon="solar:map-point-bold" className="text-white w-4 h-4" width={16} height={16} />
                   </div>
                   <div>
-                    <div className="text-sm font-bold text-gray-900 dark:text-white">Islamabad, Pakistan</div>
+                    <div className="text-sm font-bold text-gray-900 dark:text-white">Conroe, TX</div>
                   </div>
                 </motion.div>
               </div>
@@ -271,7 +265,7 @@ export default function OverviewSection() {
               </h4>
               <div className="space-y-4">
                 {[
-                  { icon: "solar:star-bold", text: "Top Rated on Upwork", color: "text-yellow-600" },
+                  { icon: "solar:star-bold", text: "Top Rated on Full-stack", color: "text-yellow-600" },
                   { icon: "solar:cpu-bolt-bold-duotone", text: "Expert in AI Integration", color: "text-blue-600" },
                   { icon: "solar:code-square-bold", text: "50+ Projects Delivered", color: "text-green-600" },
                 ].map((achievement, index) => (
@@ -305,15 +299,7 @@ export default function OverviewSection() {
                   <Icon icon="solar:check-circle-bold" className="text-green-600 w-5 h-5" width={20} height={20} />
                   <span className="text-sm font-medium text-gray-800 dark:text-gray-300">Open to New Opportunities</span>
                 </motion.div>
-                <motion.div
-                  initial={{ opacity: 0, y: 10 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ delay: 2.2 }}
-                  className="flex items-center gap-3 p-3 rounded-lg bg-green-100/70 dark:bg-gray-800/30  transition-all duration-300 group border border-white/20 dark:border-gray-700/30"
-                >
-                  <Icon icon="solar:planet-2-bold" className="text-cyan-600 w-5 h-5" width={20} height={20} />
-                  <span className="text-sm font-medium text-gray-800 dark:text-gray-300">Open to Relocation</span>
-                </motion.div>
+                
                 <motion.div
                   initial={{ opacity: 0, y: 10 }}
                   animate={{ opacity: 1, y: 0 }}
@@ -321,7 +307,7 @@ export default function OverviewSection() {
                   className="flex items-center gap-3 p-3 rounded-lg bg-green-100/70 dark:bg-gray-800/30  transition-all duration-300 group border border-white/20 dark:border-gray-700/30"
                 >
                   <Icon icon="solar:clock-circle-bold" className="text-blue-600 w-5 h-5" width={20} height={20} />
-                  <span className="text-sm font-medium text-gray-800 dark:text-gray-300">Remote & On-site Available</span>
+                  <span className="text-sm font-medium text-gray-800 dark:text-gray-300">Remote Available</span>
                 </motion.div>
               </div>
             </div>
